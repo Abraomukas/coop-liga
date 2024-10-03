@@ -2,7 +2,7 @@ import React from 'react';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 export default function Teams() {
 	return (
@@ -11,7 +11,7 @@ export default function Teams() {
 
 			{/* */}
 
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
