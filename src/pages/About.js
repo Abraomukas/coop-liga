@@ -1,7 +1,7 @@
 import React from 'react';
 
 //* COMPONENTS
-// import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
 
 			{/* */}
 
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

@@ -2,10 +2,10 @@ import React from 'react';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 function Main() {
-let sections = [];
+	let sections = [];
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
@@ -20,7 +20,7 @@ let sections = [];
 				</section>
 			))}
 
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }
