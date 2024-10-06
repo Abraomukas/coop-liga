@@ -16,7 +16,7 @@ const sections = [
 ];
 
 function Navbar(props) {
-	const [isDarkMode, setIsDarkMode] = useState(false);
+	const [isDarkMode, setIsDarkMode] = useState(true);
 
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
