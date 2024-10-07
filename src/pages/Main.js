@@ -8,18 +8,10 @@ function Main() {
 	let sections = [];
 
 	return (
-		<div style={{ position: 'relative', minHeight: '100vh' }}>
+		<div>
 			<Navbar />
 
-			{/* SECTIONS */}
-			{sections.map((SectionComponent, index) => (
-				<section key={index}>
-					{/* */}
-					{/* */}
-					{/* */}
-				</section>
-			))}
-
+			<div style={{ position: 'relative', minHeight: '100vh' }}></div>
 			<Footer />
 		</div>
 	);
