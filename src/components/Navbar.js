@@ -26,9 +26,7 @@ function Navbar(props) {
 		<nav
 			className={`navbar navbar-expand-lg navbar-${
 				isDarkMode ? 'dark' : 'light'
-			} bg-${
-				isDarkMode ? 'dark' : 'light'
-			} h-100 d-flex justify-content-between align-items-center`}>
+			} bg-${isDarkMode ? 'dark' : 'light'} d-flex justify-content-between`}>
 			<div className='navbar-left'>
 				{/* BRAND */}
 				<div className='navbar-middle d-flex align-items-center mx-auto'>

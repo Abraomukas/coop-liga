@@ -1,48 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+	const [isDarkMode, setIsDarkMode] = useState(true);
+
 	return (
-		<nav className='navbar navbar-expand-lg navbar-light bg-dark h-100 d-flex justify-content-between align-items-center'>
-			<div className='container p-4'>
+		<nav
+			className={`navbar navbar-expand-lg navbar-${
+				isDarkMode ? 'dark' : 'light'
+			} bg-${isDarkMode ? 'dark' : 'light'} d-flex justify-content-around`}>
+			<div className='navbar-left'>
 				{/* SOCIAL MEDIA */}
 
-				<section className='mb-4'>
-					<div className='btn-group' role='group'>
-						{/* INSTAGRAM */}
+				<div className='btn-group' role='group'>
+					{/* INSTAGRAM */}
 
-						<Link to='' target='_blank'>
-							<button type='button' className='btn btn-outline-primary'>
-								<i className='fa-brands fa-instagram'></i>
-							</button>
-						</Link>
+					<Link to='' target='_blank'>
+						<button
+							type='button'
+							className='btn btn-outline-primary'
+							onClick={() => {}}>
+							<i className='fa-brands fa-instagram'></i>
+						</button>
+					</Link>
 
-						{/* FACEBOOK */}
+					{/* FACEBOOK */}
 
-						<Link to='' target='_blank'>
-							<button
-								type='button'
-								className='btn btn-outline-primary'
-								onClick={() => {}}>
-								<i className='fa-brands fa-facebook'></i>
-							</button>
-						</Link>
-					</div>
-				</section>
-
-				{/* TEXT */}
-
-				<section>
-					<div>
-						<div className='row d-flex justify-content-center'>
-							<div className='col-auto'>
-								<p>
-									<strong>Liga Cooperativa de Madrid</strong>
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
+					<Link to='' target='_blank'>
+						<button
+							type='button'
+							className='btn btn-outline-primary'
+							onClick={() => {}}>
+							<i className='fa-brands fa-facebook'></i>
+						</button>
+					</Link>
+				</div>
+			</div>
+			<div className='navbar-middle' />
+			<div className='navbar-right'>
+				<p className='text-white mt-2'>
+					<strong>Liga Cooperativa de Madrid</strong>
+				</p>
 			</div>
 		</nav>
 	);
