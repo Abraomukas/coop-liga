@@ -15,7 +15,9 @@ function Footer() {
 				<div className='btn-group' role='group'>
 					{/* INSTAGRAM */}
 
-					<Link to='' target='_blank'>
+					<Link
+						to='https://www.instagram.com/ligabasketcooperativa/'
+						target='_blank'>
 						<button
 							type='button'
 							className='btn btn-outline-primary'
@@ -26,12 +28,25 @@ function Footer() {
 
 					{/* FACEBOOK */}
 
-					<Link to='' target='_blank'>
+					<Link
+						to='https://www.facebook.com/ligabasketcooperativa'
+						target='_blank'>
 						<button
 							type='button'
 							className='btn btn-outline-primary'
 							onClick={() => {}}>
 							<i className='fa-brands fa-facebook'></i>
+						</button>
+					</Link>
+
+					{/* TWITTER */}
+
+					<Link to='https://x.com/ligacooperativa' target='_blank'>
+						<button
+							type='button'
+							className='btn btn-outline-primary'
+							onClick={() => {}}>
+							<i className='fa-brands fa-x-twitter'></i>
 						</button>
 					</Link>
 				</div>
