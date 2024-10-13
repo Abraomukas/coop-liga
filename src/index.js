@@ -20,11 +20,41 @@ const spinnerFallback = (
  */
 import Error from './pages/Error';
 import Main from './pages/Main';
+import Teams from './pages/Teams';
+import Courts from './pages/Courts';
+import Calendar from './pages/Calendar';
+import Competitions from './pages/Competitions';
+import About from './pages/About';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <Main />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/teams',
+		element: <Teams />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/courts',
+		element: <Courts />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/calendar',
+		element: <Calendar />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/competitions',
+		element: <Competitions />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/about-us',
+		element: <About />,
 		errorElement: <Error />,
 	},
 ]);
