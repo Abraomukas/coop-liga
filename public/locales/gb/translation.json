@@ -2,6 +2,8 @@
 	"navbar": {
 		"teams": "Teams",
 		"courts": "Courts",
+		"calendar": "Calendar",
+		"competitions": "Competitions",
 		"about": "About Us"
 	}
 }
