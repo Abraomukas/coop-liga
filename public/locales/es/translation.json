@@ -1,7 +1,9 @@
 {
 	"navbar": {
-		"teams": "Equipo",
+		"teams": "Equipos",
 		"courts": "Canchas",
+		"calendar": "Calendario",
+		"competitions": "Competiciones",
 		"about": "Sobre nosotros"
 	}
 }
