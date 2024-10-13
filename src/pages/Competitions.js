@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-export default function About() {
+export default function Competitions() {
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />

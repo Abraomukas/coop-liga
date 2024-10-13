@@ -10,6 +10,7 @@ export default function Teams() {
 			<Navbar />
 
 			{/* */}
+			<div style={{ position: 'relative', minHeight: '100vh' }}></div>
 
 			<Footer />
 		</div>
