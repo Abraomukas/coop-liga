@@ -10,9 +10,11 @@ const languages = [
 ];
 
 const sections = [
-	{ label: '', to: '/teams' },
-	{ label: '', to: '/courts' },
-	{ label: '', to: '/about-us' },
+	{ label: 'navbar.teams', destination: '/teams' },
+	{ label: 'navbar.courts', destination: '/courts' },
+	{ label: 'navbar.calendar', destination: '/calendar' },
+	{ label: 'navbar.competitions', destination: '/competitions' },
+	{ label: 'navbar.about', destination: '/about-us' },
 ];
 
 function Navbar(props) {
@@ -26,10 +28,13 @@ function Navbar(props) {
 		<nav
 			className={`navbar navbar-expand-lg navbar-${
 				isDarkMode ? 'dark' : 'light'
-			} bg-${isDarkMode ? 'dark' : 'light'} d-flex justify-content-between`}>
-			<div className='navbar-left'>
+			} bg-${
+				isDarkMode ? 'dark' : 'light'
+			} d-flex align-items-center justify-content-between`}>
+			{/*LEFT SECTION */}
+			<div>
 				{/* BRAND */}
-				<div className='navbar-middle d-flex align-items-center mx-auto'>
+				<div className='d-flex align-items-center mx-3'>
 					<a href='/'>
 						<img
 							src='./images/logo.png'
@@ -40,7 +45,9 @@ function Navbar(props) {
 					</a>
 				</div>
 			</div>
-			<div className='navbar-middle'>
+
+			{/* MIDDLE SECTION */}
+			<div>
 				{/* LINKS */}
 				<button
 					className='navbar-brand navbar-toggler'
@@ -58,7 +65,7 @@ function Navbar(props) {
 						{sections.map(({ label, destination }, index) => {
 							return (
 								<li key={index} className='nav-item'>
-									<Trans i18nKey={`pages.${label}`}>
+									<Trans i18nKey={`navbar.${label}`}>
 										<Link key={index} className='nav-link' to={destination}>
 											{t(label)}
 										</Link>
@@ -69,7 +76,9 @@ function Navbar(props) {
 					</ul>
 				</div>
 			</div>
-			<div className='navbar-right'>
+
+			{/* RIGHT SECTION */}
+			<div>
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
 						<div className='col'>
