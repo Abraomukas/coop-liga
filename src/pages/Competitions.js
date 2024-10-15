@@ -11,6 +11,10 @@ export default function Competitions() {
 		{ name: 'Jagger Mommiers', group: 1 },
 		{ name: 'La Lima Mecánica', group: 1 },
 		{ name: 'Airballs', group: 1 },
+		{ name: 'Skascajares', group: 2 },
+		{ name: 'Danger Queer', group: 2 },
+		{ name: 'M30 Pingotroters', group: 2 },
+		{ name: 'Lady Soviets', group: 2 },
 	];
 
 	return (
