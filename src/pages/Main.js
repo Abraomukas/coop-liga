@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function Main() {
+export default function Main() {
 	let sections = [];
 
 	return (
@@ -17,4 +17,3 @@ function Main() {
 	);
 }
 
-export default Main;
