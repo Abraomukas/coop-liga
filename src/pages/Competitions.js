@@ -15,11 +15,14 @@ export default function Competitions() {
 		{ name: 'Lady Soviets', group: 2 },
 		{ name: 'Danger Queer', group: 2 },
 		{ name: 'M30 Pingotroters', group: 2 },
-		{ name: 'Skascajares', group: 3 },
 		{ name: 'CTG', group: 3 },
 		{ name: 'Loz Patoz', group: 3 },
 		{ name: 'Chicago Punks', group: 3 },
 		{ name: 'Autillos', group: 3 },
+		{ name: 'Bonobxs', group: 4 },
+		{ name: 'Paralimpiakos', group: 4 },
+		{ name: 'Hijas de Odín', group: 4 },
+		{ name: 'Petróleo', group: 4 },
 	];
 
 	return (
