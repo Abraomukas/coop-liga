@@ -23,6 +23,10 @@ export default function Competitions() {
 		{ name: 'Paralimpiakos', group: 4 },
 		{ name: 'Hijas de Odín', group: 4 },
 		{ name: 'Petróleo', group: 4 },
+		{ name: 'Pyongyang', group: 5 },
+		{ name: 'Huwebes al Sol', group: 5 },
+		{ name: 'Peritas', group: 5 },
+		{ name: 'All Stones', group: 5 },
 	];
 
 	return (
