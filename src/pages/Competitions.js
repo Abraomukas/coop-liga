@@ -30,7 +30,11 @@ export default function Competitions() {
 		{ name: 'Grossa Kolektiv', group: 6 },
 		{ name: 'DenMesiktas', group: 6 },
 		{ name: 'Zierbos Lokos', group: 6 },
-		{ name: 'Torrezno Raptors', group: 6 },
+		{ name: 'Equipo 2', group: 7 },
+		{ name: 'Portland raja de tu falda', group: 7 },
+		{ name: 'Paño Bayetano FC', group: 7 },
+		{ name: 'Primxs Novixs', group: 7 },
+		{ name: 'Jaleo Real', group: 7 },
 	];
 
 	return (
