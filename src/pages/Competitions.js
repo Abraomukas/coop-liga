@@ -27,6 +27,10 @@ export default function Competitions() {
 		{ name: 'Huwebes al Sol', group: 5 },
 		{ name: 'Peritas', group: 5 },
 		{ name: 'All Stones', group: 5 },
+		{ name: 'Grossa Kolektiv', group: 6 },
+		{ name: 'DenMesiktas', group: 6 },
+		{ name: 'Zierbos Lokos', group: 6 },
+		{ name: 'Torrezno Raptors', group: 6 },
 	];
 
 	return (
