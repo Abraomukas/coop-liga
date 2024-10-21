@@ -35,6 +35,11 @@ export default function Competitions() {
 		{ name: 'Paño Bayetano FC', group: 7 },
 		{ name: 'Primxs Novixs', group: 7 },
 		{ name: 'Jaleo Real', group: 7 },
+		{ name: 'Cuñadanos', group: 8 },
+		{ name: 'Latas Mohouvericks', group: 8 },
+		{ name: 'Esperanza Warriors', group: 8 },
+		{ name: 'Pumbas', group: 8 },
+		{ name: 'Nothing Ham Prisas', group: 8 },
 	];
 
 	return (
