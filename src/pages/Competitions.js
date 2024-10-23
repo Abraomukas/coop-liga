@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export default function Competitions() {
-	const competitions = [];
+	const competitions = ['Fase regular', 'Playoffs', 'Copa'];
 	const teams = [
 		{ name: 'Estu 97', group: 1 },
 		{ name: 'Jagger Mommiers', group: 1 },
@@ -46,8 +46,7 @@ export default function Competitions() {
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
 
-			{/* */}
-			<div style={{ position: 'relative', minHeight: '100vh' }}></div>
+			{/* GROUPS GRID */}
 
 			<Footer />
 		</div>
