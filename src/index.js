@@ -25,6 +25,7 @@ import Courts from './pages/Courts';
 import Calendar from './pages/Calendar';
 import Competitions from './pages/Competitions';
 import About from './pages/About';
+import Results from './pages/Results';
 
 const router = createBrowserRouter([
 	{
@@ -55,6 +56,11 @@ const router = createBrowserRouter([
 	{
 		path: '/about-us',
 		element: <About />,
+		errorElement: <Error />,
+	},
+	{
+		path: '/results',
+		element: <Results />,
 		errorElement: <Error />,
 	},
 ]);
