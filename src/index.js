@@ -39,6 +39,11 @@ const router = createBrowserRouter([
 		errorElement: <Error />,
 	},
 	{
+		path: '/teams/:team',
+		element: <TeamDetails />,
+		errorElement: <Error />,
+	},
+	{
 		path: '/courts',
 		element: <Courts />,
 		errorElement: <Error />,
